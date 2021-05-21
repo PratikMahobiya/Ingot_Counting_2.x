@@ -6,7 +6,7 @@ import time
 def set_model(model_name, label_name):
 
 	# Path to frozen detection graph. This is the actual model that is used for the object detection.
-	PATH_TO_SVDMDL = model_name + '/saved_model/saved_model.pb'
+	PATH_TO_SVDMDL = model_name + '/saved_model'
 
 	# List of the strings that is used to add correct label for each box.
 	PATH_TO_LABELS = os.path.join('Model', label_name)
